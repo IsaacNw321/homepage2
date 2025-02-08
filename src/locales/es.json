@@ -1,0 +1,60 @@
+{
+  "about": {
+    "title": "Sobre Mí",
+    "paragraphs": [
+      "Soy un Desarrollador Web con experiencia como Agente de Soporte al Cliente. Tengo habilidades destacadas en Front-End, React y bases de datos relacionales.",
+      "Mi formación y experiencia me han permitido desarrollar sólidas habilidades de comunicación y resolución de problemas. Estoy enfocado en crear soluciones eficientes y funcionales que mejoren la experiencia del usuario y optimicen los procesos.",
+      "Busco oportunidades para aplicar mis conocimientos técnicos y contribuir al éxito de proyectos innovadores."
+    ]
+  },
+  "hero": {
+    "title": "Desarrollador Full Stack",
+    "description": "Creando experiencias web modernas con React, Next.js y TypeScript",
+    "button": "Contrátame",
+    "buttonC": "Cambiar a Ingles"
+  },
+  "skills" : {
+    "title" : "Herramientas & Habilidades"
+  },
+  "services": {
+    "title": "Mis Servicios",
+    "items": [
+      {
+        "title": "Sitios Web Estáticos",
+        "description": "Sitios web estáticos rápidos, responsivos y optimizados para SEO construidos con tecnologías modernas.",
+        "icon": "Globe",
+        "button": "Ver Más",
+        "link": "https://daapp-sandy.vercel.app/"
+      },
+      {
+        "title": "Aplicaciones Web",
+        "description": "Aplicaciones web full-stack con integración robusta de backend y autenticación de usuarios.",
+        "icon": "Layout",
+        "button": "Saber Más",
+        "link": "https://front-end-chat-nine.vercel.app/"
+      },
+      {
+        "title": "Agente de Soporte al Cliente",
+        "description": "Competente en comunicación bilingüe, proporcionando un servicio al cliente excepcional con herramientas como Zendesk.",
+        "icon": "Headphones"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "information": {
+      "title": "Información de Contacto",
+      "phone": "+58 416 257-2870",
+      "email": "isaac.pereira.50159@gmail.com",
+      "github": "Perfil de GitHub",
+      "linkedin": "Perfil de LinkedIn"
+    },
+    "form": {
+      "namePlaceholder": "Tu Nombre",
+      "emailPlaceholder": "Tu Correo Electrónico",
+      "subjectPlaceholder": "Asunto",
+      "messagePlaceholder": "Tu Mensaje",
+      "button": "Enviar Mensaje"
+    }
+  }
+}
