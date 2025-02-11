@@ -36,7 +36,9 @@
       {
         "title": "Agente de Soporte al Cliente",
         "description": "Competente en comunicación bilingüe, proporcionando un servicio al cliente excepcional con herramientas como Zendesk.",
-        "icon": "Headphones"
+        "icon": "Headphones",
+        "button": "Ver PDF",
+        "link": "https://rxresu.me/isaac.pereira.50159/atencion-al-cliente"
       }
     ]
   },
