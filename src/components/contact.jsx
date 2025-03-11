@@ -22,10 +22,6 @@ export default function Contact() {
                <Phone className="w-5 h-5 text-blue-500" />
                    <p className="flex items-center text-blue-500 text-base">+58 416 257-2870</p>
                  </div>
-                 <div className="flex items-center gap-4">
-                <Mail className="w-5 h-5 text-blue-500" />
-                    <p className="flex items-center text-blue-500 text-sm">isaac.pereira.50159@gmail.com</p>
-                   </div>
                 <div className="flex items-center gap-4">
                 <Github className="w-5 h-5 text-blue-500"/> 
                   <a href="https://github.com/IsaacNw321" target="_blank" 
