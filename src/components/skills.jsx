@@ -31,7 +31,7 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
             >
-              <div className="bg-gray-900 w-72 md:w-60 lg:w-48 h-60 p-6 rounded-lg flex flex-col justify-center items-center">
+              <div className="bg-gray-900 rounded-full m-4 w-72 md:w-60 lg:w-48 h-60 p-6  flex flex-col justify-center items-center">
                 <skill.icon size={48} color={skill.color} className="mb-4" />
                 <h3 className="text-lg font-medium">{skill.name}</h3>
               </div>

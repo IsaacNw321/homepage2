@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail, Phone } from 'lucide-react'
 import { UseT } from '../context/LanguageContext'
-
+import Me from '../images/Me.jpeg';
 
 export default function Contact() {
   const {translations} = UseT();
   return (
-    <section className="w-full -mx-3 md:w-auto lg:w-auto bg-transparent lg:-mx-0 md:bg-gray-900 lg:bg-gray-900">
+    <section className="mt-8 w-full rounded-xl -mx-3 md:w-auto lg:w-auto bg-transparent lg:-mx-0 md:bg-gray-900 lg:bg-gray-900">
       <div className="lg:p-4 w-72 md:w-auto lg:w-3/4 max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,6 +37,7 @@ export default function Contact() {
                   </a>
                 </div>
               </div>
+              <img className='w-64 h-64 rounded-full' src={Me} alt='Mifoto'></img>
             </div>
           </div>
         </motion.div>
