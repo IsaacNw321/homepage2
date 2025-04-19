@@ -1,4 +1,3 @@
-import Me from '../images/Me.jpeg';
 import { UseT } from '../context/LanguageContext';
 
 export default function Hero() {
@@ -8,14 +7,7 @@ export default function Hero() {
   }
   return (
     <section
-  className="w-full -mx-3 h-full md:w-auto md:h-96 flex justify-center lg:w-full lg:h-[calc(100vh-112px)] lg:-mx-0"
-  style={{
-    backgroundImage: `url(${Me})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    height: 'calc(100vh - 112px)',
-  }}
->
+  className="p-8 rounded-2xl w-full -mx-3 h-full md:w-auto md:h-96 flex justify-center lg:w-full bg-gray-900 lg:h-[calc(100vh-112px)] lg:-mx-0">
   <div className="w-72 md:w-auto lg:w-full relative z-10 flex flex-col items-center justify-center h-full text-center">
     <h1 className="flex justify-center items-center text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 h-48">
       {translations.hero.title}

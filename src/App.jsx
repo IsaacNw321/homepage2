@@ -12,7 +12,6 @@ function App() {
     <LanguageProvider>
     <main className="min-h-screen bg-black text-white">
     <Hero />
-    <About />
     <Skills />
     <Services />
     <Contact />
