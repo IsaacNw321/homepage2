@@ -2,20 +2,20 @@ import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail, Phone } from 'lucide-react'
 import { UseT } from '../context/LanguageContext'
 import Me from '../images/Me.jpeg';
-
+import '../App.css'
 export default function Contact() {
   const {translations} = UseT();
   return (
-    <section className="mt-8 w-full rounded-xl -mx-3 md:w-auto lg:w-auto bg-transparent lg:-mx-0 md:bg-gray-900 lg:bg-gray-900">
-      <div className="lg:p-4 w-72 md:w-auto lg:w-3/4 max-w-6xl mx-auto">
+    <section className="h-auto w-full mb-12 flex justify-center align-middle  rounded-xl md:w-auto lg:w-auto bg-transparent lg:-mx-0 md:bg-gray-900 lg:bg-gray-900">
+      <div className="lg:p-4 w-72 md:w-auto lg:w-3/4 max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
           <h2 className=" mt-20 text-4xl font-bold text-center mb-6">{translations.contact.title}</h2>
-          <div className=" grid md:grid-cols-1 gap-12">
-            <div className="w-72 md:w-auto lg:w-auto bg-gray-800 p-6 rounded-lg">
+          <div className="h-96 lg:flex lg:justify-center grid md:grid-cols-1 gap-12">
+            <div className="w-72 md:w-auto lg:w-96 bg-gray-800 p-6 rounded-lg">
               <h3 className="text-2xl font-semibold mb-6">{translations.contact.information.title}</h3>
               <div className="space-y-4">
               <div className="flex items-center gap-4">
@@ -37,7 +37,7 @@ export default function Contact() {
                   </a>
                 </div>
               </div>
-              <img className='w-64 h-64 rounded-full' src={Me} alt='Mifoto'></img>
+              <img className='img' src={Me} alt='Mifoto'></img>
             </div>
           </div>
         </motion.div>

@@ -1,4 +1,3 @@
-import './App.css'
 import Hero from './components/hero'
 import About from './components/about'
 import Skills from './components/skills'
@@ -10,11 +9,12 @@ function App() {
 
   return (
     <LanguageProvider>
-    <main className="min-h-screen bg-black text-white">
+    <main className="flex justify-center flex-col align-middle min-h-screen bg-black text-white">
     <Hero />
     <Skills />
     <Services />
     <Contact />
+    <About/>
     </main>
     </LanguageProvider>
   )
