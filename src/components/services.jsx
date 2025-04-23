@@ -15,8 +15,8 @@ export default function Services() {
   const services = translations.services.items
 
   return (
-    <section className="w-full p-16 rounded-xl -mx-3 bg-transparent md:bg-gray-900 lg:-mx-0 lg:bg-gray-900">
-      <div className="w-72 max-w-6xl mx-auto px-4 sm:px-6 lg:w-full lg:px-8">
+    <section className="w-full p-16 flex flex-col justify-center align-middle rounded-b-none rounded-xl bg-transparent md:bg-gray-900 lg:-mx-0 lg:bg-gray-900">
+      <div className="w-72 -mx-2  max-w-6xl px-4 sm:px-6 lg:w-full lg:px-8">
         <h2 className="text-4xl font-bold text-center mb-12">{translations.services.title}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
@@ -27,7 +27,7 @@ export default function Services() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="flex justify-center m-12"
+                className="flex justify-center "
               >
                 <div className="bg-gray-800 p-6 rounded-lg w-full max-w-sm text-center flex flex-col justify-between h-full lg:h-108">
                   <div>

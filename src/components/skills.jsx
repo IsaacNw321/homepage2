@@ -20,10 +20,10 @@ const skills = [
 export default function Skills() {
   const {translations} = UseT();
   return (
-    <section className="w-full -mx-3  md:w-auto lg:w-full lg:-mx-0 py-20 px-0">
-      <div className="w-72 max-w-6xl mx-auto sm:px-6 lg:w-full ">
-        <h2 className="text-3xl font-bold  lg:text-center mb-12">{translations.skills.title}</h2>
-        <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6">
+    <section className="w-full md:w-auto lg:w-full py-20 px-0">
+      <div className="w-72 flex m-auto justify-center text-center flex-col align-middle max-w-6xl sm:px-6 lg:w-full lg:mx-8">
+        <h2 className="text-3xl font-bold m-auto  lg:text-center mb-12">{translations.skills.title}</h2>
+        <div className="-mx-3 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 lg:-mx-8">
           {skills.map((skill, index) => (
             <motion.div
               key={skill.name}

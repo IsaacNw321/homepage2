@@ -4,7 +4,7 @@
   "about": {
     "title": "About Me",
     "paragraphs": [
-      "I am a Web Developer with experience as a Customer Support Agent. I have outstanding skills in Front-End, React, and relational databases.",
+      "I am a Web Developer with experience as a Customer Support Agent. I have outstanding skills in Front-End, Back-End, and relational databases.",
       "My training and experience have allowed me to develop solid communication and problem-solving skills. I am focused on creating efficient and functional solutions that improve the user experience and optimize processes.",
       "I look for opportunities to apply my technical knowledge and contribute to the success of innovative projects."
     ]
@@ -23,7 +23,7 @@
       "description": "Fast, responsive, and SEO-friendly static websites built with modern technologies.",
       "icon": "Globe",
       "button": "See more",
-      "link": "https://daapp-gilt.vercel.app/"
+      "link": "https://angels-app.vercel.app/"
     },
     {
       "title": "Web Applications",
