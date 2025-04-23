@@ -11,7 +11,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
           className="flex flex-col justify-center align-middle items-center gap-12"
         >
-          <div className="ml-20 w-72 max-w-3xl md:w-full lg:w-full">
+          <div className="ml-12 sm:ml-16 lg:ml-20 w-72 max-w-3xl md:w-full lg:w-full">
             <h2 className="text-4xl font-bold mb-6 text-center">{translations.about.title}</h2>
             <div className="bg-gray-900 w-auto lg:w-auto p-6 rounded-lg flex flex-col items-center gap-4">
               <p className="text-gray-300 mb-4 text-center">
