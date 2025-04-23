@@ -16,7 +16,7 @@ export default function Services() {
 
   return (
     <section className="w-full p-16 flex flex-col justify-center align-middle rounded-b-none rounded-xl bg-transparent md:bg-gray-900 lg:-mx-0 lg:bg-gray-900">
-      <div className="w-72 -mx-2  max-w-6xl px-4 sm:px-6 lg:w-full lg:px-8">
+      <div className="w-72 -mx-4  max-w-6xl px-4 sm:px-6 lg:w-full lg:px-8">
         <h2 className="text-4xl font-bold text-center mb-12">{translations.services.title}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
