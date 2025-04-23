@@ -6,7 +6,7 @@ import '../App.css'
 export default function Contact() {
   const {translations} = UseT();
   return (
-    <section className="h-auto w-full mb-12 flex justify-center align-middle  rounded-xl md:w-auto lg:w-auto bg-transparent lg:-mx-0 md:bg-gray-900 lg:bg-gray-900">
+    <section className="h-auto w-full mb-12 flex justify-center align-middle rounded-t-none rounded-xl md:w-auto lg:w-auto bg-transparent lg:-mx-0 md:bg-gray-900 lg:bg-gray-900">
       <div className="lg:p-4 w-72 md:w-auto lg:w-3/4 max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
